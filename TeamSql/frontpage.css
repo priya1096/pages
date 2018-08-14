@@ -1,0 +1,110 @@
+
+       h1{
+           font-size: 50px;
+    
+       } 
+        li a{
+            display: inline;
+            color: black;
+            text-decoration: none;
+            transition: 1s;
+    
+
+        }
+        li{
+            display:inline;
+            Font-size: 25px;
+            font-weight: 400;
+            line-height: 2.5;
+            color: black;
+            transition: 10s;
+            padding-top: 10%;
+
+        }
+        ul{
+            word-spacing: 75px;
+        }
+        
+       li a:hover {
+        color: #555;
+        color: orangered;
+        border-bottom: 1px orangered solid;
+        padding-bottom: 5px;
+}
+h4{
+    text-align: center;
+    background-color:orange;
+    color: black;
+    height: 35px;
+    padding-top: 10px; 
+    font-size: 20px;
+}
+.div{
+    background-color: white;
+    font-size: 40px;
+    color: black;
+    line-height: 60px;
+    text-align: center;
+
+}
+.div:p{
+    text-decoration: none;
+}
+.popup {
+    font-size: 26px;
+    background-color: orange;
+    box-sizing: border-box;
+    width: 15%;
+    margin-top:-13%;
+    height:auto;
+    float:right;
+    z-index: 1000;
+    border-radius: 30%;
+}
+.popup
+{
+margin-right: 5% ;
+}
+h2{
+    
+    float: right;
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+    width: 20%;
+    height: 12%;
+    border-radius: 36%;
+    padding-top: 19px;
+    padding-left:2%;
+    margin-top: -3%; 
+}
+.downloads{
+    border-style:none;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    left:0;
+    right:0;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+    vertical-align: middle;
+} 
+h5{
+    box-sizing: border-box;
+    height: 70px;
+    width:200px;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    margin-bottom: -15px;
+    border-radius: 30%;
+    padding-top: 15px;
+}
+@media only screen and (max-width: 768px) {
+    .popup {
+        margin-right: -220px;
+        margin-right: -130px;
+    }
+}
